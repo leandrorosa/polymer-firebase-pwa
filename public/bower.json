@@ -1,0 +1,26 @@
+{
+  "name": "polymer-firebase-pwa",
+  "homepage": "https://github.com/leandrorosa/polymer-firebase-pwa",
+  "authors": [
+    "leandro.rosagf@gmail.com"
+  ],
+  "description": "tutorial do polymer-firebase-pwa",
+  "main": "index.html",
+  "keywords": [
+    "polymer",
+    "firebase",
+    "pwa"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "note-app-elements": "polymerlabs/note-app-elements",
+    "polymerfire": "firebase/polymerfire#^0.10.3"
+  }
+}
