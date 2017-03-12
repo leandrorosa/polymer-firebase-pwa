@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
-    <title>Notes</title>
+    <title>Todo</title>
     <link rel="manifest" href="manifest.json">
     <!-- Older Chrome configuration -->
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Notes">
+    <meta name="application-name" content="Todo">
     <link rel="icon"
           sizes="192x192"
           href="bower_components/note-app/common/images/icon-4x.png">
@@ -33,5 +33,12 @@
             default-cache-strategy="networkFirst">
     </platinum-sw-cache>
 </platinum-sw-register>
+<firebase-app
+        name="todo"
+        api-key="AIzaSyBuYqJV7odnNwcJ0Tbjn0TxqeifhySw42s"
+        auth-domain="todo-849fd.firebaseapp.com"
+        database-url="https://todo-849fd.firebaseio.com">
+</firebase-app>
+<note-app></note-app>
 </body>
 </html>
